@@ -1,3 +1,7 @@
+.page-404 {
+  background: no-repeat center/cover url(@img/bg-404.png), $black;
+}
+
 .section-404 {
   margin-top: 65px;
   text-align: center;
@@ -38,7 +42,7 @@
   &__subtitle {
     max-width: 462px;
     font-weight: 400;
-    color: $black;
+    color: $white;
     margin: 0 auto 50px;
     font-size: 15px;
     line-height: 24px;

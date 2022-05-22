@@ -31,25 +31,25 @@
         width: 8px;
         height: 8px;
         background-color: transparent;
-        border: 1px solid rgba($black, 0.5);
+        border: 1px solid #8b8b8f;
         margin: 0 12.5px;
 
         &:hover {
-          background-color: $black;
+          background-color: #8b8b8f;
         }
       }
 
       &.active {
         span {
-          border: 1px solid $black;
-          background-color: $black;
+          border: 1px solid $white;
+          background-color: $white;
         }
       }
     }
   }
 
   &__card {
-    background: $white;
+    background: #272730;
     border: 1px solid rgba(255, 255, 255, 0.07);
     border-radius: 15px;
     padding: 15px 16px 40px;
@@ -57,10 +57,10 @@
 
     &-nickname {
       font-weight: 600;
-      color: $black;
+      color: $white;
       text-align: center;
-      background: $white;
-      border: 1px solid rgba($black, 0.15);
+      background: #272730;
+      border: 1px solid rgba(255, 255, 255, 0.16);
       border-radius: 15px;
       margin-bottom: 28px;
     }

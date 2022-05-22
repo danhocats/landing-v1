@@ -1,3 +1,20 @@
+.page-content {
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -457px;
+    top: 180px;
+    width: 493px;
+    height: 493px;
+    background: #C9B494;
+    filter: blur(172px);
+    z-index: -1;
+  }
+}
+
 .section-content {
   position: relative;
   padding-bottom: 94px;
@@ -44,7 +61,7 @@
     @include indent-reset();
     font-size: 38px;
     line-height: 46px;
-    color: $black;
+    color: $white;
     margin-top: 40px;
     margin-bottom: 23px;
 
@@ -68,7 +85,7 @@
     @include indent-reset();
     font-size: 26px;
     line-height: 36px;
-    color: $black;
+    color: $white;
     margin-top: 40px;
     margin-bottom: 16px;
 
@@ -92,7 +109,7 @@
     @include indent-reset();
     font-size: 16px;
     line-height: 27px;
-    color: $black;
+    color: $white;
     margin-top: 40px;
     margin-bottom: 15px;
 
@@ -144,7 +161,7 @@
       font-weight: 400;
       font-size: 12px;
       line-height: 20px;
-      color: $black;
+      color: #B9B9BB;
 
       @media (min-width: 1400px) {
         font-size: 14px;
@@ -164,6 +181,7 @@
   img {
     width: 100%;
     object-fit: contain;
+    border: 1px solid #36363f;
     border-radius: 15px;
   }
 
@@ -174,7 +192,7 @@
     border-bottom-right-radius: 20px;
     margin-bottom: 40px;
     text-align: left;
-    background-color: $white;
+    background-color: #272730;
     border-collapse: collapse;
 
 
@@ -185,12 +203,12 @@
     }
 
     th {
-      border-right: 4px solid  #F6F3F9;
-      border-left: 4px solid  #F6F3F9;
+      border-right: 4px solid $black;
+      border-left: 4px solid $black;
     }
 
     td {
-      border: 4px solid  #F6F3F9;
+      border: 4px solid $black;
     }
 
     tbody {
@@ -209,7 +227,7 @@
                 top: -3px;
                 right: -6px;
                 display: block;
-                background-color: $accent;
+                background-color: #D8F366;
                 height: 3px;
                 width: 10px;
               }
@@ -285,14 +303,13 @@
     blockquote {
       margin: 0 0 35px;
       padding-left: 70px;
-      color: $black;
 
       @media (min-width: 768px) {
         padding-left: 92px;
       }
 
       p {
-        color: $black;
+        color: $white;
       }
     }
 
@@ -321,7 +338,7 @@
     }
 
     &__name {
-      color: $black;
+      color: $white;
       font-weight: 600;
       width: 100%;
       display: inline-block;

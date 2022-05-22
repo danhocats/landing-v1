@@ -17,7 +17,7 @@
     user-select: none;
     position: relative;
     display: inline-block;
-    color: $accent;
+    color: $white;
     font-family: $libre;
     font-weight: 600;
     font-size: 56.4819px;
@@ -60,8 +60,8 @@
       font-weight: 800;
       font-size: 99.3049px;
       line-height: 154px;
-      filter: drop-shadow(0px 0px 1px rgba(34, 170, 115, 0.7));
-      color: #f4f1f7;
+      filter: drop-shadow(0px 0px 1px rgba(255, 255, 255, 0.2));
+      color: #17171f;
       z-index: -1;
 
       @media (min-width: 1400px) {
@@ -71,16 +71,11 @@
     }
 
     &-text {
-      color: $accent;
-      font-family: $libre;
+      color: $white;
+      font-weight: $libre;
       font-weight: 400;
-      font-size: 15.5px;
+      font-size: 15.5094px;
       line-height: 36px;
-
-      @media (min-width: 1400px) {
-        font-size: 26.5px;
-        line-height: 36px;
-      }
     }
   }
 

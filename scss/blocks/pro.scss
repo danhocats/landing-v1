@@ -25,7 +25,7 @@
     justify-content: center;
     min-width: 48px;
     height: 48px;
-    background-color: $accent;
+    background-color: $black;
     border-radius: 15px;
 
     @media (min-width: 1400px) {
@@ -89,7 +89,7 @@
 
   &__box {
     display: flex;
-    background: $white;
+    background: #272730;
     border: 1px solid rgba(255, 255, 255, 0.07);
     box-sizing: border-box;
     border-radius: 22.5px;

@@ -10,6 +10,40 @@
     padding-bottom: 180px;
   }
 
+  &::after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 720px;
+    left: -350px;
+    width: 493px;
+    height: 493px;
+    background: linear-gradient(162.6deg, #C9B494 23.13%, rgba(201, 180, 148, 0) 81.3%);
+    filter: blur(173px);
+    z-index: -1;
+
+    @media (min-width: 992px) {
+      display: block;
+    }
+  }
+
+  &::before {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 720px;
+    left: 0;
+    width: 107px;
+    height: 107px;
+    background: url(@img/bg-star.svg) no-repeat;
+    background-size: contain;
+    z-index: -1;
+
+    @media (min-width: 992px) {
+      display: block;
+    }
+  }
+
   &__title {
     text-align: center;
     margin-bottom: 21px;
@@ -35,7 +69,7 @@
     margin-bottom: 90px;
 
     @media (min-width: 565px) {
-      // background: url(@img/homepage/circle-sales.svg) no-repeat;
+      background: url(@img/homepage/circle-sales.svg) no-repeat;
       background-position: 50% 0%;
       background-size: contain;
     }
@@ -107,7 +141,7 @@
               }
 
               path {
-                fill: $white;
+                fill: #16161E;
               }
             }
           }
@@ -162,7 +196,7 @@
           font-weight: 500;
           font-size: 12px;
           line-height: 17px;
-          color: $white;
+          color: $black;
           padding: 3px 0;
           text-align: center;
 

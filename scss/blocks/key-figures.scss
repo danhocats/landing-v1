@@ -2,6 +2,23 @@
   position: relative;
   padding-bottom: 80px;
 
+  &::after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 200px;
+    right: -250px;
+    width: 493px;
+    height: 493px;
+    background: linear-gradient(162.6deg, #C9B494 23.13%, rgba(201, 180, 148, 0) 81.3%);
+    filter: blur(173px);
+    z-index: -1;
+
+    @media (min-width: 992px) {
+      display: block;
+    }
+  }
+
   @media (min-width: 992px) {
     padding-bottom: 120px;
   }
@@ -38,7 +55,7 @@
       min-width: 90px;
       width: auto;
       padding-right: 25px;
-      color: $accent;
+      color: $white;
       font-family: $libre;
       font-weight: 600;
       font-size: 36px;

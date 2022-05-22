@@ -6,6 +6,23 @@
     padding-bottom: 100px;
   }
 
+  &::after {
+    content: "";
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: -300px;
+    width: 493px;
+    height: 493px;
+    background: linear-gradient(162.6deg, #C9B494 23.13%, rgba(201, 180, 148, 0) 81.3%);
+    filter: blur(173px);
+    z-index: -1;
+
+    @media (min-width: 992px) {
+      display: block;
+    }
+  }
+
   &__title  {
     margin-bottom: 14px;
     text-align: center;
@@ -32,7 +49,7 @@
 
   &__card {
     display: inline-block;
-    background: $white;
+    background: #272730;
     border: 1px solid rgba(255, 255, 255, 0.07);
     border-radius: 15px;
     padding: 25px;
@@ -59,7 +76,7 @@
 
     &-name {
       font-weight: 600;
-      color: $black;
+      color: $white;
       margin-bottom: 3px;
     }
 

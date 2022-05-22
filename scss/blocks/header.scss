@@ -9,9 +9,10 @@
   @media (min-width: 992px) {
     margin-top: 15px;
     padding: 13px 35px;
-    border: 1px solid rgba(21, 21, 30, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
     border-radius: 15px;
+    background-color: $black;
   }
 
   &__wrapper {
@@ -47,7 +48,7 @@
     &__link {
       font-size: 14px;
       line-height: 17px;
-      color: $black;
+      color: $white;
       text-decoration: none;
 
       &:hover,
@@ -74,7 +75,7 @@
       align-items: center;
 
       svg {
-        color: $black;
+        color: $white;
         transition: all $normal ease-in-out;
 
         &:hover,

@@ -9,7 +9,7 @@ footer {
     margin: 0 auto 35px;
     height: 1px;
     opacity: 0.2;
-    background-color: $black;
+    background-color: $white;
   }
 
   .social-icons {
@@ -31,7 +31,7 @@ footer {
       svg {
         width: 40px;
         height: 40px;
-        color: $black;
+        color: $white;
         transition: all $normal ease-in-out;
 
         &:hover,
