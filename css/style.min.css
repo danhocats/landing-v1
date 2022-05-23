@@ -1932,6 +1932,9 @@ p {
   position: relative;
   padding-bottom: 80px;
 }
+#faq_title{
+  z-index: 1;
+}
 @media (min-width: 992px) {
   .faq {
     padding-bottom: 120px;
@@ -1943,24 +1946,30 @@ p {
   left: 0;
   content: "";
   display: none;
-  width: 305px;
+  width: 550px;
   height: 550px;
-  background: no-repeat center/contain url(../img/bg-faq.svg);
+  background: no-repeat center/contain url(../img/shiro.png);
+  
+  /* background: no-repeat center/contain url(../img/bg-faq.svg); */
 }
 @media (min-width: 992px) {
   .faq::before {
     display: block;
-    top: 0;
-    width: 305px;
-    height: 550px;
+    top: -100px;
+    width: 512px;
+    height: 512px;
+    left: -100px;
+    
   }
 }
 @media (min-width: 1400px) {
   .faq::before {
     display: block;
-    top: -25px;
-    width: 457.5px;
-    height: 825px;
+    top: -90px;
+    width: 650px;
+    height: 650px;
+    left: -50px;
+    
   }
 }
 .faq.faq-about {
@@ -2736,7 +2745,7 @@ footer .social-icons__link svg:hover, footer .social-icons__link svg:active {
   }
   .partners-about__card:nth-child(6) {
     left: -100px;
-    z-index: 2;
+    
   }
   .partners-about__card:nth-child(7) {
     left: -120px;
