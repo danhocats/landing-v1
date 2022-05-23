@@ -6,16 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Google Fonts -->  
   <style>
-  
+    @font-face {
+    font-family: 'GongGothicBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
   @font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  * { font-family: 'GongGothicLight'; }
+  p {line-height: 230%;}
+  /* @font-face {
     font-family: 'GongGothicBold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
   * { 
-  font-family: GongGothicBold;
-  }
+
+  font-family: GongGothicBold !important;
+  } */
 
   </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +44,7 @@
   <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
   <link rel="stylesheet" href="css/vendor/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/style.min.css">
-  <link rel="icon" href="img/favicon-nft-dark.svg">
+  <link rel="icon" href="img/favicon.png"> 
   <title>DanhoCats</title>
 </head>
 
@@ -40,7 +55,9 @@
       <header class="header">
         <div class="header__wrapper">
           <a class="logo" href="./index.html">
-            <img src="img/icons/logo.svg" width="61" height="17" alt="logo" class="logo__img">
+            <img src="img/favicon.png" width="37" height="37" alt="logo" class="logo__img">
+            <!-- <img src="img/logo.png" width="182" height="95" alt="logo" class="logo__img"> -->
+            <!-- <img src="img/icons/logo.svg" width="61" height="17" alt="logo" class="logo__img"> -->
           </a>
 
           <nav class="main-nav">
@@ -192,7 +209,7 @@
             </div>
           </div>
           <div class="col-12 col-lg-7">
-            <img class="main-about__img d-block" src="img/test.gif" alt="main-about-image">
+            <img class="main-about__img d-block" src="img/big.gif" alt="main-about-image">
           </div>
         </div>
       </div>
@@ -317,14 +334,12 @@
       </div>
 
       <!-- Holders Benefits image     -->
-      <div class="container">
+      <div class="container" id="benefit-img">
         <div class="row">
           <div class="col-12">
-            
             <figure class="wrapper-image">
               <img src="img/scaffolding/image.jpg" alt="full-width-image">
             </figure>
-
           </div>
         </div>
       </div>
@@ -352,7 +367,7 @@
                   <div class="extras__card col-12 col-xl-6 pe-xl-0 wow animate__animated animate__fadeInUp">
                     <div class="extras__card-header">
                       <div class="extras__card-icon">
-                        <img class="extras__card-img" src="img/icons/icon-rocket.svg" alt="extras-1">
+                        <img class="extras__card-img" src="img/icons/skin_1.svg" alt="extras-1">
                       </div>
                       <div class="extras__card-title nft-h3">
                         단호냥이 거버넌스 기능 운영
@@ -367,7 +382,7 @@
                   <div class="extras__card col-12 col-xl-6 wow animate__animated animate__fadeInUp">
                     <div class="extras__card-header">
                       <div class="extras__card-icon">
-                        <img class="extras__card-img" src="img/icons/icon-rocket.svg" alt="extras-2">
+                        <img class="extras__card-img" src="img/icons/skin_1.svg" alt="extras-2">
                       </div>
                       <div class="extras__card-title nft-h3">
                         수익금 DeFi 예치

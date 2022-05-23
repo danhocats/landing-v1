@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  overflow-x: auto;
+  overflow: auto;
 }
 
 body {
@@ -174,7 +174,7 @@ p {
   padding: 0;
   font-family: "GongGothicBold", Arial, sans-serif;
   font-weight: 400;
-  color: #D8F366;
+  color: #fcb6ff;
   font-size: 11px;
   line-height: 19px;
   text-transform: uppercase;
@@ -222,7 +222,7 @@ p {
   font-size: 14px;
   line-height: 20px;
   color: #171720;
-  background-color: #D8F366;
+  background-color: #fcb6ff;
   text-decoration: none;
   border-radius: 10px;
 }
@@ -261,11 +261,11 @@ p {
   height: 40px;
 }
 .btn-arrow:hover {
-  color: #D8F366;
+  color: #fcb6ff;
   transition: linear 200ms;
 }
 .btn-arrow:hover svg circle {
-  fill: #D8F366;
+  fill: #fcb6ff;
   transition: linear 200ms;
 }
 .btn-arrow:hover svg path {
@@ -348,7 +348,7 @@ p {
   text-decoration: none;
 }
 .header .main-nav__link:hover, .header .main-nav__link:active {
-  color: #D8F366;
+  color: #fcb6ff;
 }
 .header .social-icons {
   margin: 0;
@@ -373,10 +373,11 @@ p {
   transition: all 200ms ease-in-out;
 }
 .header .social-icons__link svg:hover, .header .social-icons__link svg:active {
-  color: #D8F366;
+  color: #fcb6ff;
 }
 
 .hero {
+  overflow-y: hidden;
   position: relative;
   margin-bottom: 24px;
   padding-top: 60px;
@@ -613,7 +614,7 @@ p {
 
 .section-text {
   padding: 80px 0;
-  background-color: #D8F366;
+  background-color: #fcb6ff;
 }
 .section-text__desc {
   color: #16161E;
@@ -708,7 +709,7 @@ p {
   margin-right: 3.5px;
 }
 .philosophy__list-item span {
-  color: #D8F366;
+  color: #fcb6ff;
   padding-right: 7px;
 }
 .philosophy__list-item:last-child {
@@ -1015,7 +1016,7 @@ p {
   display: block;
   min-width: 23px;
   height: 23px;
-  background: no-repeat center/contain url(../img/icons/star-yellow.svg);
+  background: no-repeat center/contain url(../img/icons/skin_1.svg);
 }
 @media (min-width: 1400px) {
   .benefits__item::after {
@@ -1310,7 +1311,7 @@ p {
   display: block;
   width: 40%;
   height: 2px;
-  background-color: #D8F366;
+  background-color: #fcb6ff;
 }
 .extras__card-header {
   display: flex;
@@ -1764,10 +1765,10 @@ p {
   }
 }
 .top-sales .circular-slider .wrapper .controls__left:hover svg circle, .top-sales .circular-slider .wrapper .controls__right:hover svg circle {
-  fill: #D8F366;
+  fill: #fcb6ff;
 }
 .top-sales .circular-slider .wrapper .controls__left:hover svg circle:nth-child(2), .top-sales .circular-slider .wrapper .controls__right:hover svg circle:nth-child(2) {
-  stroke: #D8F366;
+  stroke: #fcb6ff;
   opacity: 1;
 }
 .top-sales .circular-slider .wrapper .controls__left:hover svg path, .top-sales .circular-slider .wrapper .controls__right:hover svg path {
@@ -1817,7 +1818,7 @@ p {
   margin-top: 12px;
   opacity: 0;
   display: block;
-  background-color: #D8F366;
+  background-color: #fcb6ff;
   border-radius: 50px;
   font-weight: 500;
   font-size: 12px;
@@ -2050,7 +2051,7 @@ p {
   bottom: -2px;
   left: 0;
   right: 0;
-  background-color: #D8F366;
+  background-color: #fcb6ff;
   width: 100%;
   height: 3px;
   transform: scaleX(0);
@@ -2066,7 +2067,7 @@ p {
   transform-origin: left;
 }
 .faq__list-item-title svg {
-  color: #D8F366;
+  color: #fcb6ff;
   min-width: 19px;
   height: 13px;
 }
@@ -2279,7 +2280,7 @@ footer .social-icons__link svg {
   transition: all 200ms ease-in-out;
 }
 footer .social-icons__link svg:hover, footer .social-icons__link svg:active {
-  color: #D8F366;
+  color: #fcb6ff;
 }
 
 .overflow-hidden {
@@ -2331,7 +2332,7 @@ footer .social-icons__link svg:hover, footer .social-icons__link svg:active {
   line-height: 17px;
 }
 .mobile-menu__content .main-nav__link:hover, .mobile-menu__content .main-nav__link:active {
-  color: #D8F366;
+  color: #fcb6ff;
 }
 .mobile-menu__content .social-icons {
   margin: 0;
@@ -2349,7 +2350,7 @@ footer .social-icons__link svg:hover, footer .social-icons__link svg:active {
   text-decoration: none;
 }
 .mobile-menu__content .social-icons__link:hover, .mobile-menu__content .social-icons__link:active {
-  color: #D8F366;
+  color: #fcb6ff;
 }
 .mobile-menu__content .social-icons__link span {
   opacity: 0.7;
@@ -2944,7 +2945,7 @@ footer .social-icons__link svg:hover, footer .social-icons__link svg:active {
   margin-bottom: 20px;
 }
 .section-content a {
-  color: #D8F366;
+  color: #fcb6ff;
 }
 .section-content a:hover, .section-content a:active {
   text-decoration: none;
@@ -2986,6 +2987,12 @@ footer .social-icons__link svg:hover, footer .social-icons__link svg:active {
     margin: 60px 0;
   }
 }
+#benefit-img img{
+  width: 100%;
+  object-fit: contain;
+  border: 1px solid #36363f;
+  border-radius: 15px;
+}
 .section-content img {
   width: 100%;
   object-fit: contain;
@@ -3015,7 +3022,7 @@ footer .social-icons__link svg:hover, footer .social-icons__link svg:active {
   border: 4px solid #171720;
 }
 .section-content table tbody tr:first-child td {
-  border-top: 3px solid #D8F366;
+  border-top: 3px solid #fcb6ff;
   position: relative;
 }
 .section-content table tbody tr:first-child td:first-child::after {
@@ -3024,7 +3031,7 @@ footer .social-icons__link svg:hover, footer .social-icons__link svg:active {
   top: -3px;
   right: -6px;
   display: block;
-  background-color: #D8F366;
+  background-color: #fcb6ff;
   height: 3px;
   width: 10px;
 }
