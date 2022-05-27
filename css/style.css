@@ -2428,7 +2428,7 @@ footer .social-icons__link svg:hover, footer .social-icons__link svg:active {
   object-fit: contain;
   margin-left: auto;
   position: relative;
-  right: -12.2vw;
+  /* right: -12.2vw; */
 }
 @media (min-width: 1400px) {
   .main-about__img {
