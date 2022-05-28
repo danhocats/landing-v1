@@ -95,10 +95,16 @@ p {
     padding-right: 15px;
   }
 }
-
-.nft-h1,
-.nft-h2,
 .nft-h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "GongGothicLight", Arial, sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.nft-h1,
+.nft-h2
+{
   margin: 0;
   padding: 0;
   font-family: "GongGothicBold", Arial, sans-serif;
@@ -2033,7 +2039,7 @@ p {
   cursor: pointer;
   user-select: none;
   padding: 28px 30px 24px;
-  font-family: "GongGothicBold", Arial, sans-serif;
+  font-family: "GongGothicLight", Arial, sans-serif;
   font-weight: 500;
   font-size: 19px;
   line-height: 27px;
