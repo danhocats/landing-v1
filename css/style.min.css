@@ -2999,7 +2999,7 @@ footer .social-icons__link svg:hover, footer .social-icons__link svg:active {
 #benefit-img img{
   width: 100%;
   object-fit: contain;
-  border: 1px solid #36363f;
+  /* border: 1px solid #36363f; */
   border-radius: 15px;
 }
 .section-content img {
