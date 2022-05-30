@@ -43,7 +43,7 @@
     display: flex;
     align-items: center;
     padding: 18px 20px;
-    background: $white;
+    background: $black;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     margin-right: 60px;
@@ -76,10 +76,6 @@
     width: 30px !important;
     height: 30px;
     object-fit: contain;
-
-    path {
-      fill: $black;
-    }
 
     @media (min-width: 1400px) {
       margin-right: 37.5px;

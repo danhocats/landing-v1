@@ -43,7 +43,7 @@
       cursor: pointer;
       display: flex;
       align-items: center;
-      background: $white;
+      background: #272730;
       border: 1px solid rgba(255, 255, 255, 0.07);
       border-radius: 15px;
       padding: 11px 12px;
@@ -53,9 +53,9 @@
       span {
         transition: all $normal ease-in-out;
         padding: 6px 0 4px;
-        color: $white;
+        color: $black;
         text-align: center;
-        background: $black;
+        background: #E8E8E9;
         border-radius: 50px;
         margin-right: 51px;
         min-width: 87px;
@@ -68,8 +68,8 @@
       &--open {
 
         span {
-          background-color: #E8E8E9;
-          color: $black;
+          background-color: $black;
+          color: $white;
         }
       }
     }
@@ -77,7 +77,7 @@
     &-desc {
       display: none;
       padding: 18px 25px;
-      background: $white;
+      background: #272730;
       border: 1px solid rgba(255, 255, 255, 0.07);
       border-radius: 15px;
 

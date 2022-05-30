@@ -4,6 +4,23 @@
   overflow-x: clip;
   position: relative;
 
+  &::after {
+    content: "";
+    display: none;
+    position: absolute;
+    width: 236px;
+    height: 236px;
+    left: -245px;
+    top: 356px;
+    background: #C9B494;
+    filter: blur(143px);
+    z-index: -1;
+
+    @media (min-width: 992px) {
+      display: block;
+    }
+  }
+
   &__title {
     margin-bottom: 14px;
   }
@@ -26,7 +43,7 @@
     font-weight: 600;
     font-size: 70px;
     line-height: 84px;
-    color: $accent;
+    color: $white;
 
     @media (min-width: 1200px) {
       font-size: 84px;
@@ -60,8 +77,8 @@
     font-weight: 800;
     font-size: 99.3049px;
     line-height: 154px;
-    filter: drop-shadow(0px 0px 1px rgba(34, 170, 115, 0.7));
-    color: #f4f1f7;
+    filter: drop-shadow(0px 0px 1px rgba(255, 255, 255, 0.2));
+    color: #17171f;
 
     @media (min-width: 1200px) {
       top: -50px;
@@ -81,6 +98,6 @@
     font-weight: 400;
     font-size: 23px;
     line-height: 30px;
-    color: $accent;
+    color: $white;
   }
 }

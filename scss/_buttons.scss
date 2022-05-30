@@ -12,7 +12,7 @@
   padding: 12px 26.5px;
   font-size: 14px;
   line-height: 20px;
-  color: $white;
+  color: $black;
   background-color: $accent;
   text-decoration: none;
   border-radius: 10px;
@@ -45,7 +45,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: $black;
+  color: $white;
   text-decoration: none;
 
   svg {
@@ -62,14 +62,10 @@
       circle {
         fill: $accent;
         transition: linear $normal;
-
-        &:nth-child(2) {
-          stroke: $accent;
-        }
       }
 
       path {
-        fill: $white;
+        fill: $black;
         transition: linear $normal;
       }
     }

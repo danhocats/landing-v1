@@ -5,6 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Google Fonts -->
+  <style>
+  @font-face {
+    font-family: 'GongGothicBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  * { font-family: 'GongGothicLight'; }
+  p {line-height: 230%;}
+
+  </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter&family=Libre+Franklin:wght@500;600;800&display=swap" rel="stylesheet">
@@ -16,8 +34,8 @@
   <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
   <link rel="stylesheet" href="css/vendor/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/style.min.css">
-  <link rel="icon" href="img/favicon-nft-light.svg">
-  <title>Homepage</title>
+  <link rel="icon" href="img/favicon-nft-dark.svg">
+  <title>DanhoCats</title>
 </head>
 
 <body class="homepage">
@@ -27,24 +45,11 @@
       <header class="header">
         <div class="header__wrapper">
           <a class="logo" href="./index.html">
-            <!-- <img src="img/icons/logo.svg" width="61" height="17" alt="logo" class="logo__img"> -->
-            <img src="img/test.svg" width="61" height="17" alt="logo">
+            <img src="img/icons/logo.svg" width="61" height="17" alt="logo" class="logo__img">
           </a>
 
           <nav class="main-nav">
             <ul class="main-nav__list">
-              <li class="main-nav__item">
-                <a href="./index.html" class="main-nav__link">Buy on OpenSea</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="./index.html#story" class="main-nav__link">Story</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="./index.html" class="main-nav__link">Collections</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="./index.html" class="main-nav__link">Buy on OpenSea</a>
-              </li>
               <li class="main-nav__item">
                 <a href="./index.html" class="main-nav__link">Buy on OpenSea</a>
               </li>
@@ -103,26 +108,29 @@
   </div>
 </div>
 
+
+
   <main>
-  <!-- head -->
+
     <section class="hero">
       <div class="container wow animate__animated animate__fadeIn">
         <div class="row justify-content-center">
           <div class="col-12 col-xl-10 col-xxl-12">
-            <h1 class="hero__title nft-h1">고양이 집사를 위한 최고의 NFT 멤버쉽 프로젝트</h1>
+            <h1 class="hero__title nft-h1", style="font-family:GongGothicBold;">반려묘 집사를 위한 최고의 멤버십</h1>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-12 col-sm-10 col-xxl-8 col-xxl-10">
-            <p class="hero__desc">지금까지는 없었던 NFT 프로젝트..... 홀더들에게 최대의 혜택을 제공해드립니다</p>
+          <div class="col-12 col-sm-10 col-xxl-8 col-xxl-10" >
+            <p class="hero__desc">단호냥이는 집사들이 반려묘와 최고의 환경에서 함께할 수 있도록 합니다.</p>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-12 d-flex justify-content-center">
-            <a href="#" class="btn hero__btn">Buy on OpenSea</a>
+            <a href="#" class="btn hero__btn">단호냥이와 함께하기</a>
           </div>
         </div>
       </div>
+
       <div class="hero__images hero-images owl-carousel owl-theme">
         <div class="hero-images__item">
           <a class="hero-images__link">
@@ -160,8 +168,8 @@
           </a>
         </div>
       </div>
-      
     </section>
+
     <!-- about -->
     <section class="main-about">
       <div class="container">
@@ -170,23 +178,23 @@
             <div class="main-about__text-block">
               <!-- <h1 class="nft-h1">About DanhoCats </h1> -->
               <h4 class="nft-h4">about</h4>
-              <h2 class="nft-h2">단호냥이 프로젝트는 국내 최초 집사들을 위한 블록체인 NFT 멤버쉽 프로젝트 입니다.</h2>
+              <h2 class="nft-h2", style="font-family:GongGothicBold;">국내 최초<br>집사들을 위한 블록체인<br>NFT 멤버십</h2>
               <div class="main-about__desc">
                 <p>
-                  NFT를 보유한 홀더는 단호냥이 프로젝트와 함께하고 있는 파트너사의 고양이 물품들을 매우 저렴하게 구매할 수 있고, 고양이를 키우면서 생기는 다양한 문제를 함께 해결할 수 있도록 도와드립니다.
+                  저렴하게 구매하는 단호냥이 파트너사의 고양이용품<br>연계된 동물병원을 통한 반려묘의 건강 확인 및 치료
                 </p>
+                <h6>* 단호냥이 파트너사 6월 말 순차 오픈 (반려묘 용품)<br>** 단호냥이 파트너사 7월 말 순차 오픈 (연계 동물병원)</h6>
               </div>
             </div>
           </div>
           <div class="col-12 col-lg-7">
-            <img class="main-about__img d-block" src="img/about/img-main-about.png" alt="main-about-image">
+            <img class="main-about__img d-block" src="img/test.gif" alt="main-about-image">
           </div>
         </div>
       </div>
     </section>
+
     <!-- story -->
-
-
     <section class="section-content" id="story">
       <div class="container">
         <div class="row">
@@ -198,16 +206,16 @@
                 
                 <div class="columns__content">
                   
-                  <h2 class="nft-h2">냥집사의 이야기</h2>
+                  <h2 class="nft-h2", style="font-family:GongGothicBold;">냥집사의 이야기</h2>
                   <p>
-                    따르릉- -
+                    <i>따르릉--</i>
                     <br><br>
                     퇴근길에 붐비는 지하철, 어디선가 쉴 새 없이 전화벨이 울립니다. 황급히 전화를 받는 한 사람. 매우 지쳐 보이지만 전화를 끊은 뒤 갤러리에 들어가 누군가의 사진을 보며 얕은 미소를 띄우네요.<br>
                     보기만 해도 웃음이 나오는 존재가 있는 걸까요?
                     <br>
                     집에 도착하니 문 앞에 새로운 택배 상자가 놓여 있습니다.
                     <br><br>
-                    *[상품: 고양이들이 좋아하는 고급 츄르 24종]*
+                    <i>[상품: 고양이들이 좋아하는 고급 츄르 24종]</i>
                     <br><br>
                     벌써부터 좋아할 고양이의 모습이 그려지는 집사는 비싼 가격의 쓰라림도 잊고, 당장 고양이에게 츄르를 먹이러 갑니다.
                     <br>
@@ -217,13 +225,13 @@
                     <br>
                     이렇게 본인은 라면을 먹을지 언정, 집사가 웃으면서 매일 같이 하는 말이 있습니다.
                     <br><br>
-                    "나는 굶어도 내 고양이는 안 굶겨"**
+                    <b>"나는 굶어도 내 고양이는 안 굶겨"</b>
                   </p>
                 </div>
               </div>
               <div class="col-12 col-md-5 order-md-1 order-0">
                 <div class="columns__img ps-md-2 ps-lg-3 ps-xl-5">
-                  <img src="img/scaffolding/image-white.jpg" alt="image">
+                  <img src="img/test.gif" alt="image">
                 </div>
               </div>
             </div>
@@ -231,14 +239,14 @@
             <div class="row columns">
               <div class="col-12 col-md-5">
                 <div class="columns__img pe-md-2 pe-lg-3 pe-xl-5">
-                  <img src="img/scaffolding/image-white.jpg" alt="image">
+                  <img src="img/test.gif" alt="image">
                 </div>
               </div>
               <div class="col-12 col-md-7">
                 <div class="columns__content">
-                  <h2 class="nft-h2">단호냥이의 이야기</h2>
+                  <h2 class="nft-h2", style="font-family:GongGothicBold;">단호냥이의 이야기</h2>
                   <p>
-                    깜빡-깜빡-
+                    <i>깜빡-깜빡-</i>
                     <br><br>
                     어둑어둑해진 저녁, 여기 밝게 빛나는 두 눈동자가 있습니다. 고양이가 홀로 집을 한 바퀴 둘러보며 구석구석을 관찰합니다.
                     <br>
@@ -252,7 +260,7 @@
                     고양이는 단호한 표정으로 결심했습니다. 사랑하는 주인을 위해 나 하나쯤은 내가 챙길 수 있다고.<br>
                     혹시 밤에 물끄러미 반짝이는 시선이 느껴진다면, 아마도 집사에게 이렇게 말하는 걸지도 몰라요.
                     <br><br>
-                    "주인, 내 츄르는 내가 챙겨"
+                    <b>"주인, 내 츄르는 내가 챙겨"</b>
                   </p>
                 </div>
               </div>
@@ -262,115 +270,23 @@
         </div>
       </div>
     </section>
-          
 
-    <section class="key-figures">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="key-figures__title nft-h4 wow animate__animated animate__fadeInDown ">KEY FIGURES</h2>
-            <h3 class="key-figures__subtitle nft-h2 wow animate__animated animate__fadeInUp">Behold: Their Majesty</h3>
-            <div class="key-figures__list-items">
-              <div class="key-figures__list-item">
-                <div class="key-figures__list-item-title wow animate__animated animate__bounceInLeft">
-                  80%
-                </div>
-                <div class="key-figures__list-item-text wow animate__animated animate__bounceInRight">
-                  <h4 class="nft-h3">NFTs bought at pre-launch</h4>
-                  <p>The last collection we’ve launched was sold out on day 5 – and the start was quite impressive, too.</p>
-                </div>
-              </div>
-              <div class="key-figures__list-item">
-                <div class="key-figures__list-item-title wow animate__animated animate__bounceInLeft">
-                  15
-                </div>
-                <div class="key-figures__list-item-text wow animate__animated animate__bounceInRight">
-                  <h4 class="nft-h3">Highest sale</h4>
-                  <p>These items are not to be looked down upon: this is something you’ll boast about – or profitably resell.</p>
-                </div>
-              </div>
-              <div class="key-figures__list-item">
-                <div class="key-figures__list-item-title wow animate__animated animate__bounceInLeft">
-                  +3k
-                </div>
-                <div class="key-figures__list-item-text wow animate__animated animate__bounceInRight">
-                  <h4 class="nft-h3">Top-notch pieces of art</h4>
-                  <p>Our incredibly productive artists and designers have embodied all their inspiration in these NFTs.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="features__title nft-h4 wow animate__animated animate__fadeInDown ">FEATURES</h2>
-            <h3 class="features__subtitle nft-h2 wow animate__animated animate__fadeInUp">Join the cult – if you’re daring enough</h3>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-6 col-lg-3 col-xl-3 list-item wow animate__animated animate__fadeInUp">
-            <div class="list-item__title nft-h3">
-              고양이 용품 공동 구매
-            </div>
-            <p class="list-item__desc">
-              고양이 사료, 간식, 모래 등 고양이 용품을 할인가 적용 + 민팅 완판시 추가 할인까지!
-            </p>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 col-xl-3 list-item wow animate__animated animate__fadeInUp">
-            <div class="list-item__title nft-h3">
-              단호냥이 굿즈 제공
-            </div>
-            <p class="list-item__desc">
-              홀더 대상 판매가 59% 할인 적용
-            </p>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 col-xl-3 list-item wow animate__animated animate__fadeInUp">
-            <div class="list-item__title nft-h3">
-              츄르코인 채굴
-            </div>
-            <p class="list-item__desc">
-              NFT 스테이킹시 츄르코인 획득
-            </p>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 col-xl-3 list-item wow animate__animated animate__fadeInUp">
-            <div class="list-item__title nft-h3">
-              타 협업 NFT 프로젝트 화이트리스트 등재
-            </div>
-            <p class="list-item__desc">
-              단호냥이와 파트너를 맺은 다양한 프로젝트의 화이트리스트 등재 기회 제공
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 features__wrapper-btn wow animate__animated animate__fadeInUp">
-            <a href="#" class="btn features__btn">Buy on OpenSea</a>
-          </div>
-          <div class="col-12">
-            <img class="features__img d-block wow animate__animated animate__fadeInUp" src="img/homepage/features.png" alt="features">
-          </div>
-        </div>
-      </div>
-    </section>
+    
     <!-- benefits -->
     <section class="benefits">
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
             <h2 class="benefits__title nft-h4 wow animate__animated animate__fadeInDown">BENEFITS</h2>
-            <h3 class="benefits__subtitle nft-h2 wow animate__animated animate__fadeInUp">Holders Benefit</h3>
+            <h3 class="benefits__subtitle nft-h2 wow animate__animated animate__fadeInUp", style="font-family:GongGothicBold;">단호냥이와 함께하는 이유</h3>
           </div>
         </div>
         <div class="benefits-carousel-top owl-carousel owl-theme">
           <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-key.svg" alt="benefits-6"> 단호냥이 굿즈 제공
+            <img class="benefits__icon d-block svg" src="img/icons/icon-key.svg" alt="benefits-6"> 스페셜 단호냥이 굿즈 제공
           </div>
           <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-rotation.svg" alt="benefits-1"> 타 협업 NFT Project WhiteList 등재
+            <img class="benefits__icon d-block svg" src="img/icons/icon-rotation.svg" alt="benefits-1"> 타 협업 NFT 프로젝트 화이트리스트
           </div>
           <div class="benefits__item nft-h3">
             <img class="benefits__icon d-block svg" src="img/icons/icon-rocket.svg" alt="benefits-2"> 고양이 용품 공동 구매
@@ -378,212 +294,38 @@
           <div class="benefits__item nft-h3">
             <img class="benefits__icon d-block svg" src="img/icons/icon-diamond.svg" alt="benefits-3"> 츄르코인 채굴
           </div>
-          <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-star.svg" alt="benefits-4"> Hot trend
-          </div>
-          <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-key.svg" alt="benefits-5"> Provable
-          </div>
-          <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-rocket.svg" alt="benefits-7"> Extra stuff available
-          </div>
-          <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-diamond.svg" alt="benefits-8"> Cool showcase
-          </div>
 
         </div>
         <div class="benefits-carousel-down owl-carousel owl-theme">
-
           <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-key.svg" alt="benefits-5"> Provable
+            <img class="benefits__icon d-block svg" src="img/icons/icon-rocket.svg" alt="benefits-2"> 지정 동물병원 할인
           </div>
           <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-rocket.svg" alt="benefits-7"> Extra stuff available
+            <img class="benefits__icon d-block svg" src="img/icons/icon-key.svg" alt="benefits-6"> 단호냥이 거버넌스 참여
           </div>
           <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-diamond.svg" alt="benefits-8"> Cool showcase
-          </div>
-          <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-rotation.svg" alt="benefits-1"> Limited collection
-          </div>
-          <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-rocket.svg" alt="benefits-2"> Unique
-          </div>
-          <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-diamond.svg" alt="benefits-3"> Collectible
-          </div>
-          <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-key.svg" alt="benefits-6"> Big-name artist
-          </div>
-          <div class="benefits__item nft-h3">
-            <img class="benefits__icon d-block svg" src="img/icons/icon-star.svg" alt="benefits-4"> Hot trend
+            <img class="benefits__icon d-block svg" src="img/icons/icon-star.svg" alt="benefits-4"> 보유 단호냥이에 따른 할인 제공
           </div>
 
         </div>
       </div>
-    </section>
 
-    
-    <section class="section-content">
+      <!-- Holders Benefits image     -->
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3>We discuss the project brief and define the scope</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>Name of column №1</th>
-                  <th>Name of column №2</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                </tr>
-                <tr>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                </tr>
-                <tr>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                </tr>
-              </tbody>
-            </table>
-
-            <h3>We discuss the project brief and define the scope</h3>
-            <table>
-              <tbody>
-                <tr>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                </tr>
-                <tr>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                </tr>
-                <tr>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                  <td>On the other hand, we denounce with righteous indignation</td>
-                </tr>
-              </tbody>
-            </table>
-
-
-              </figcaption>
+            
+            <figure class="wrapper-image">
+              <img src="img/scaffolding/image.jpg" alt="full-width-image">
             </figure>
 
- 
-
-
-
-
           </div>
         </div>
       </div>
     </section>
 
 
-
-
-
-    <section class="features">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-6 col-lg-3 col-xl-3 list-item wow animate__animated animate__fadeInUp">
-              <div class="list-item__title nft-h3">
-                고양이 용품 공동 구매
-              </div>
-              <p class="list-item__desc">
-                고양이 사료, 간식, 모래 등 고양이 용품을 할인가 적용 + 민팅 완판시 추가 할인까지!
-              </p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 col-xl-3 list-item wow animate__animated animate__fadeInUp">
-              <div class="list-item__title nft-h3">
-                단호냥이 굿즈 제공
-              </div>
-              <p class="list-item__desc">
-                홀더 대상 판매가 59% 할인 적용
-              </p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 col-xl-3 list-item wow animate__animated animate__fadeInUp">
-              <div class="list-item__title nft-h3">
-                츄르코인 채굴
-              </div>
-              <p class="list-item__desc">
-                NFT 스테이킹시 츄르코인 획득
-              </p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 col-xl-3 list-item wow animate__animated animate__fadeInUp">
-              <div class="list-item__title nft-h3">
-                타 협업 NFT 프로젝트 화이트리스트 등재
-              </div>
-              <p class="list-item__desc">
-                단호냥이와 파트너를 맺은 다양한 프로젝트의 화이트리스트 등재 기회 제공
-              </p>
-            </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="pro">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="pro__box d-flex flex-wrap">
-              <div class="col-12 col-xl-6 col-xxl-5">
-                <div class="pro__text-block">
-                  <h2 class="pro__title nft-h4 wow animate__animated animate__fadeInDown ">PRO</h2>
-                  <h3 class="pro__subtitle nft-h2 wow animate__animated animate__fadeInUp">Prime membership</h3>
-                  <p class="pro__desc wow animate__animated animate__fadeInUp">
-                    If you’re not too impressed yet, get ready for this: more stuff is available with the Pro subscription! Get pre-launch access to the market drops and exclusive collections of the best NFT collection in the observable universe.
-                  </p>
-                  <a href="#" class="btn pro__btn wow animate__animated animate__fadeInUp">Gimme my Pro access!</a>
-                </div>
-              </div>
-              <div class="col-12 col-xl-6 col-xxl-7 d-flex justify-content-end align-items-center p-relative">
-                <img class="pro__img" src="img/homepage/pro.png" alt="pro">
-                <div class="row pro__cards p-relative">
-                  <div class="col-6 col-sm-4">
-                    <div class="pro__card">
-                      <img class="pro__card-img" src="img/homepage/2.jpg" alt="nft-1">
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4">
-                    <div class="pro__card">
-                      <img class="pro__card-img" src="img/homepage/4.jpg" alt="nft-2">
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4">
-                    <div class="pro__card">
-                      <img class="pro__card-img" src="img/homepage/2.jpg" alt="nft-3">
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4">
-                    <div class="pro__card">
-                      <img class="pro__card-img" src="img/homepage/3.jpg" alt="nft-4">
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4">
-                    <div class="pro__card">
-                      <img class="pro__card-img" src="img/homepage/1.jpg" alt="nft-5">
-                    </div>
-                  </div>
-                  <div class="col-6 col-sm-4">
-                    <div class="pro__card">
-                      <img class="pro__card-img" src="img/homepage/3.jpg" alt="nft-6">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <!-- Promise with holders -->
     <section class="extras">
       <div class="container">
         <div class="row">
@@ -591,10 +333,10 @@
             <div class="row">
               <div class="col-12 col-xl-5 col-xxl-4">
                 <h2 class="extras__title nft-h4 wow animate__animated animate__fadeInDown ">EXTRAS</h2>
-                <h3 class="extras__subtitle nft-h2 wow animate__animated animate__fadeInUp">Perks of Pro</h3>
+                <h3 class="extras__subtitle nft-h2 wow animate__animated animate__fadeInUp", style="font-family:GongGothicBold;">Challenge</h3>
                 <div class="extras__desc wow animate__animated animate__fadeInUp">
                   <p>
-                    There’s more hype than you can see on the surface. Freakzers come in all sorts of shapes and incarnations. Here’s what you get when going Pro in our gang.
+                    단호냥이 멤버십의 안정적인 운영을 위해 다음과 같이 진행됩니다.
                   </p>
                 </div>
               </div>
@@ -607,12 +349,13 @@
                         <img class="extras__card-img" src="img/icons/icon-rocket.svg" alt="extras-1">
                       </div>
                       <div class="extras__card-title nft-h3">
-                        Prime access to drops
+                        단호냥이 거버넌스 기능 운영
                       </div>
                     </div>
                     <p class="extras__card-desc">
-                      Be the first to grab the top NFTs before anyone else can even move their finger - lots of hot items there!
+                      중요 결정사항은 홀더들과의 투표를 통해 진행<br>
                     </p>
+                    <h6>* 7월 말 기능 오픈</h6>
                   </div>
 
                   <div class="extras__card col-12 col-xl-6 wow animate__animated animate__fadeInUp">
@@ -621,70 +364,14 @@
                         <img class="extras__card-img" src="img/icons/icon-rocket.svg" alt="extras-2">
                       </div>
                       <div class="extras__card-title nft-h3">
-                        Custom cards
+                        수익금 DeFi 예치
                       </div>
                     </div>
                     <p class="extras__card-desc">
-                      Next-level members get next-level service: our artists will craft a one-and-only card just for you.
+                      수익금은 DeFi 예치를 통해 운영 안정성을 유지하며, 모든 내역은 공개
                     </p>
+                    <h6>* 7월 중 운영 예정</h6>
                   </div>
-
-                  <div class="extras__card col-12 col-xl-6 pe-xl-0 wow animate__animated animate__fadeInUp">
-                    <div class="extras__card-header">
-                      <div class="extras__card-icon">
-                        <img class="extras__card-img" src="img/icons/icon-rocket.svg" alt="extras-3">
-                      </div>
-                      <div class="extras__card-title nft-h3">
-                        Instagram filters
-                      </div>
-                    </div>
-                    <p class="extras__card-desc">
-                      Hype up your stories with the retrowave filters by Freakzers – won’t your feed folks be jealous!
-                    </p>
-                  </div>
-
-                  <div class="extras__card col-12 col-xl-6 wow animate__animated animate__fadeInUp">
-                    <div class="extras__card-header">
-                      <div class="extras__card-icon">
-                        <img class="extras__card-img" src="img/icons/icon-rocket.svg" alt="extras-4">
-                      </div>
-                      <div class="extras__card-title nft-h3">
-                        Other crypto accepted
-                      </div>
-                    </div>
-                    <p class="extras__card-desc">
-                      Unlike with the first-level plan, you can pay not only in Ether and USDT but also Doge, Bitcoin, and Cardano.
-                    </p>
-                  </div>
-
-                  <div class="extras__card col-12 col-xl-6 pe-xl-0 wow animate__animated animate__fadeInUp">
-                    <div class="extras__card-header">
-                      <div class="extras__card-icon">
-                        <img class="extras__card-img" src="img/icons/icon-rocket.svg" alt="extras-5">
-                      </div>
-                      <div class="extras__card-title nft-h3">
-                        Mystery perk
-                      </div>
-                    </div>
-                    <p class="extras__card-desc">
-                      You never know what you get… You just never know.
-                    </p>
-                  </div>
-
-                  <div class="extras__card col-12 col-xl-6 wow animate__animated animate__fadeInUp">
-                    <div class="extras__card-header">
-                      <div class="extras__card-icon">
-                        <img class="extras__card-img" src="img/icons/icon-rocket.svg" alt="extras-6">
-                      </div>
-                      <div class="extras__card-title nft-h3">
-                        Freakzers 16-bit game
-                      </div>
-                    </div>
-                    <p class="extras__card-desc">
-                      Get the literal ball rolling in the full-blast game that makes you reminiscent of Nintendo stuff.
-                    </p>
-                  </div>
-
                 </div>
               </div>
             </div>
@@ -693,7 +380,7 @@
       </div>
     </section>
 
-    <section class="learn-more">
+    <!-- <section class="learn-more">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4 col-xl-5">
@@ -738,14 +425,14 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="roadmap" class="roadmap">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <h2 class="roadmap__title nft-h4 wow animate__animated animate__fadeInDown ">ROADMAP</h2>
-            <h3 class="roadmap__subtitle nft-h2 wow animate__animated animate__fadeInUp">단호냥이의 로드맵</h3>
+            <h3 class="roadmap__subtitle nft-h2 wow animate__animated animate__fadeInUp", style="font-family:GongGothicBold;">단호냥이 로드맵</h3>
             <p class="roadmap__desc wow animate__animated animate__fadeInUp">
               
             </p>
@@ -755,108 +442,60 @@
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>0%</span> 1차 단호냥이 티켓 민팅 완료 후, 티켓 10장 이상 보유한 홀더전원 ‘에어드랍’ 이벤트 진행
               </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-              </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>5%</span> 2차 단호냥이 티켓 민팅 완료 후, 강남권 광고판에  ‘완판 기념’ 광고 진행
-              </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
               </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>10%</span> DeFi 예치를 통한 판매대금 수익화
               </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-              </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
-                <span>20%</span> 홀더 대상 혜택 제공(고양이 용품 공동구매 등 홀더투표 실시 후 결정)
-              </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
+                <span>20%</span> 홀더 대상 혜택 제공(반려묘 용품 공동구매 등 홀더 투표 실시 후 결정)
               </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>30%</span> 유기 고양이 보호 단체에 기부
               </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-              </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>40%</span> 단호냥이 거버넌스 기능 추가
-              </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
               </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>50%</span> 단호냥이 굿즈 제작 및 판매 - 홀더 대상 할인 이벤트 진행
               </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-              </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>60%</span> 단호냥이 굿즈 제작 및 판매 - 홀더 대상 할인 이벤트 진행
-              </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
               </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>70%</span> 국내/해외 유명 NFT 프로젝트와 협업
               </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-              </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>80%</span> 고양이 용품 온라인 판매사와 협업 및 제휴
-              </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
               </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>90%</span> 자체 생산라인 구축
               </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-              </div>
             </div>
             <div class="roadmap__drop-down-list wow animate__animated animate__fadeInUp">
               <div class="roadmap__drop-down-list-title nft-h3">
                 <span>100%</span> 세계화 (USA 진출) 및 우주냥이 프로젝트 시작
-              </div>
-              <div class="roadmap__drop-down-list-desc">
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
-                <p>Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!</p>
               </div>
             </div>
           </div>
@@ -869,7 +508,7 @@
         <div class="row">
           <div class="col-12">
             <h2 class="partners__title nft-h4 wow animate__animated animate__fadeInDown ">PARTNERS</h2>
-            <h3 class="partners__subtitle nft-h2 wow animate__animated animate__fadeInUp">They already loved it</h3>
+            <h3 class="partners__subtitle nft-h2 wow animate__animated animate__fadeInUp", style="font-family:GongGothicBold;">함께하고 있는 파트너사</h3>
           </div>
         </div>
         <div class="partners-carousel owl-carousel owl-theme">
@@ -896,144 +535,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="extras-plate">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="extras-plate__box d-flex flex-wrap align-items-lg-center justify-content-between">
-              <div class="col-12 col-lg-5 col-xxl-6">
-                <div class="text-block">
-                  <h2 class="extras-plate__title nft-h4 wow animate__animated animate__fadeInDown ">EXTRAS</h2>
-                  <h3 class="extras-plate__subtitle nft-h2 wow animate__animated animate__fadeInUp">Perks of Pro</h3>
-                  <div class="extras-plate__desc wow animate__animated animate__fadeInUp">
-                    <p>
-                      There’s more hype than you can see on the surface. Freakzers come in all sorts of shapes and incarnations. Here’s what you get when going Pro in our gang.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-7 col-xxl-6 d-flex justify-content-lg-start align-items-center flex-wrap">
-                <div class="extras-plate__list-item wow animate__animated animate__fadeInUp">
-                  <img class="extras-plate__list-item-icon" src="img/icons/hand.svg" alt="icon-1">
-                  <div class="extras-plate__list-item-title nft-h3">
-                    Freakzin’ fantastic
-                  </div>
-                </div>
-                <div class="extras-plate__list-item wow animate__animated animate__fadeInUp">
-                  <img class="extras-plate__list-item-icon" src="img/icons/brilliant.svg" alt="icon-2">
-                  <div class="extras-plate__list-item-title nft-h3">
-                    Probably rare
-                  </div>
-                </div>
-                <div class="extras-plate__list-item wow animate__animated animate__fadeInUp">
-                  <img class="extras-plate__list-item-icon" src="img/icons/lamp.svg" alt="icon-3">
-                  <div class="extras-plate__list-item-title nft-h3">
-                    Super artsy
-                  </div>
-                </div>
-                <div class="extras-plate__list-item wow animate__animated animate__fadeInUp">
-                  <img class="extras-plate__list-item-icon" src="img/icons/key.svg" alt="icon-4">
-                  <div class="extras-plate__list-item-title nft-h3">
-                    Extra fun for Pro
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="top-sales">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="top-sales__title nft-h4">Collections</h2>
-            <h3 class="top-sales__subtitle nft-h2 wow animate__animated animate__fadeInUp">단호냥이 둘러보기</h3>
-          </div>
-        </div>
-        <div class="circular-slider top-sales__slider">
-            <div class="wrapper">
-              <div class="controls">
-                <div class="controls__left">
-                  <div class="icon-wrapper">
-                    <svg width="60" height="60" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="20" cy="20" r="20" fill="transparent"/>
-                      <circle cx="20" cy="20" r="19.5" stroke="#15151E" stroke-opacity="0.5"/>
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M24.1667 26.7273L30 20.7838V19.9434L24.1667 14L23.3418 14.8404L28.1788 19.7699H11V20.9586H28.18L23.3407 25.8869L24.1655 26.7273H24.1667Z" fill="#15151E"/>
-                    </svg>
-                  </div>
-                </div>
-                <div class="controls__right">
-                  <div class="icon-wrapper">
-                    <svg width="60" height="60" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="20" cy="20" r="20" fill="transparent"/>
-                      <circle cx="20" cy="20" r="19.5" stroke="#15151E" stroke-opacity="0.5"/>
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M24.1667 26.7273L30 20.7838V19.9434L24.1667 14L23.3418 14.8404L28.1788 19.7699H11V20.9586H28.18L23.3407 25.8869L24.1655 26.7273H24.1667Z" fill="#15151E"/>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <div class="slides-holder">
-                <a class="slides-holder__item slides-holder__item_active" href="#">
-                  <img class="slides-holder__img" src="img/danho/1.jpeg" alt="NFT-1">
-                  <span class="slides-holder__number">Legendary</span>
-                </a>
-                <a class="slides-holder__item" href="#">
-                  <img class="slides-holder__img" src="img/danho/2.jpeg" alt="NFT-2">
-                  <span class="slides-holder__number">Normal</span>
-                </a>
-                <a class="slides-holder__item" href="#">
-                  <img class="slides-holder__img" src="img/danho/3.jpeg" alt="NFT-3">
-                  <span class="slides-holder__number">Top</span>
-                </a>
-                <a class="slides-holder__item" href="#">
-                  <img class="slides-holder__img" src="img/danho/4.jpeg" alt="NFT-4">
-                  <span class="slides-holder__number">Hyper</span>
-                </a>
-                <a class="slides-holder__item" href="#">
-                  <img class="slides-holder__img" src="img/danho/5.jpeg" alt="NFT-5">
-                  <span class="slides-holder__number">충무공</span>
-                </a>
-                <a class="slides-holder__item" href="#">
-                  <img class="slides-holder__img" src="img/danho/6.jpeg" alt="NFT-6">
-                  <span class="slides-holder__number">마제스티</span>
-                </a>
-                <a class="slides-holder__item" href="#">
-                  <img class="slides-holder__img" src="img/danho/7.jpeg" alt="NFT-7">
-                  <span class="slides-holder__number">바닥</span>
-                </a>
-              </div>
-            </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-lg-6">
-            <div class="top-sales__desc wow animate__animated animate__bounceInLeft">
-              <p>
-                Check out our ambitious plans: as we go, we’ll tick the points until we’re there. What next? More daring exploits!
-              </p>
-              <p>
-                Meet the notorious Freakzers - the creatures from your dreams and nightmares, and quite possibly from under your bed… Don’t look down!
-              </p>
-              <p>
-                Who are they? One day, in March of the year 2351, Freakzers will crawl from underneath the city to show their true power. And district by district, people will embrace the wave of the psychedelic vibe that these neon creatures spread all over the place.
-              </p>
-            </div>
-          </div>
-          <div class="col-12 col-lg-6">
-            <div class="top-sales__desc wow animate__animated animate__bounceInRight">
-              <p>
-                Aren’t they adorable in their unearthliness? The whole Freakzer gang – hundreds of colorful cards – are making our lives brighter. Come admire them in all their glory: each one with its own story and quirky look.
-              </p>
-              <p>
-                The brave ones who will proceed with the Freakzers will find what they look for: unique mindblowing collectibles generated based on 110 parameters. Pick your favorite one.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </section>  
+    
 
 
     <section class="team">
@@ -1041,7 +544,7 @@
         <div class="row">
           <div class="col-12">
             <h2 class="team__title nft-h4 wow animate__animated animate__fadeInDown ">TEAM</h2>
-            <h3 class="team__subtitle nft-h2 wow animate__animated animate__fadeInUp">TEAM DANHOCATS</h3>
+            <h3 class="team__subtitle nft-h2 wow animate__animated animate__fadeInUp", style="font-family:GongGothicBold;">TEAM DanhoCats</h3>
           </div>
         </div>
         <div class="team-carousel owl-carousel owl-theme">
@@ -1130,7 +633,7 @@
         <div class="row justify-content-end">
           <div class="col-12 col-lg-9">
             <h2 class="faq__title nft-h4 wow animate__animated animate__fadeInDown ">FAQ</h2>
-            <h3 class="faq__subtitle nft-h2 wow animate__animated animate__fadeInUp">단호냥이에 대해서</h3>
+            <h3 class="faq__subtitle nft-h2 wow animate__animated animate__fadeInUp", style="font-family:GongGothicBold;">단호냥이에 대해서</h3>
           </div>
           <div class="col-12 col-lg-9">
             <div class="faq__list-item wow animate__animated animate__fadeInUp">
@@ -1164,13 +667,13 @@
               </div>
               <div class="faq__list-item-desc">
                 <p>안전한 DeFi 업체와 제휴를 맺어 지속적인 수익을 창출하여, 수익금을 홀더들에게 돌려드립니다. </p>
-                
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    
 
   </main>
 
@@ -1178,9 +681,6 @@
   <div class="container">
     <div class="row">
       <ul class="social-icons">
-        <li class="social-icons__item">
-          <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by AlternativeStd - Flaticon</a>
-        </li>
         <li class="social-icons__item">
           <a href="#" class="social-icons__link">
             <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1220,8 +720,7 @@
   <div class="mobile-menu__header">
 
     <a class="mobile-menu__logo d-flex align-items-center" href="./index.html">
-      <!-- <img src="img/icons/logo.svg" width="61" height="17" alt="logo"> -->
-      <img src="img/logo.png" width="61" height="17" alt="logo">
+      <img src="img/icons/logo.svg" width="61" height="17" alt="logo">
     </a>
 
     <button class="mobile-menu__btn close" type="button" aria-label="Close Menu"></button>
@@ -1248,7 +747,7 @@
         </li>
       </ul>
     </nav>
-    
+
     <ul class="social-icons">
       <li class="social-icons__item">
         <a href="#" class="social-icons__link">
@@ -1262,7 +761,7 @@
         </a>
       </li>
       <li class="social-icons__item">
-        <a href="#sex" class="social-icons__link">
+        <a href="#" class="social-icons__link">
           <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M6.9331 21.6911C6.93549 20.567 7.14228 19.4684 7.40256 18.3817C7.6301 17.4324 7.88719 16.4895 8.17222 15.5554C8.57462 14.2388 9.04807 12.9486 9.68839 11.7247C10.0908 10.955 10.7415 10.4704 11.5032 10.1151C12.6369 9.58573 13.8417 9.37175 15.0832 9.3478C15.5104 9.33982 15.8281 9.65918 15.8305 10.0664C15.8329 10.464 15.5263 10.7729 15.1096 10.7913C14.1539 10.8336 13.2213 10.9765 12.3255 11.3374C11.5024 11.6688 10.9108 12.2268 10.5938 13.0532C10.2489 13.9514 9.90157 14.8512 9.60456 15.7662C9.12392 17.2464 8.76942 18.7618 8.50036 20.2947C8.40775 20.8233 8.3814 21.3638 8.32552 21.8987C8.30875 22.0584 8.37502 22.1805 8.50436 22.2732C9.686 23.1203 10.9515 23.7957 12.3726 24.1446C12.7103 24.2276 13.0489 24.234 13.3906 24.1007C13.761 23.9562 14.1571 24.1502 14.296 24.5023C14.4461 24.8823 14.2824 25.2759 13.9064 25.4484C13.2509 25.7478 12.5778 25.6839 11.9127 25.5171C10.2281 25.0947 8.74308 24.27 7.37462 23.2201C7.03689 22.9606 6.96503 22.5813 6.93389 22.1901C6.92272 22.0241 6.9331 21.8572 6.9331 21.6911Z" fill="currentColor"/>
             <path d="M27.7269 21.6898C27.6869 22.0115 27.6766 22.3413 27.5959 22.6535C27.5464 22.8467 27.4291 23.0622 27.2758 23.1828C25.8386 24.3102 24.2642 25.1788 22.4622 25.5676C21.8793 25.6938 21.2885 25.7106 20.7217 25.4495C20.3544 25.2802 20.1803 24.9082 20.3089 24.5265C20.4239 24.1848 20.8239 23.9525 21.1808 24.0874C21.7061 24.2862 22.2083 24.188 22.7025 24.0291C23.8682 23.6547 24.942 23.0934 25.9512 22.4004C26.2267 22.2112 26.3512 21.9996 26.2969 21.673C26.1364 20.711 26.0191 19.7393 25.8115 18.7868C25.58 17.7241 25.2877 16.6726 24.9835 15.6275C24.7089 14.6838 24.3752 13.76 23.9496 12.869C23.6494 12.2415 23.2111 11.772 22.5867 11.4742C21.8035 11.0998 20.9724 10.9081 20.1125 10.8299C19.9137 10.8115 19.7149 10.802 19.5153 10.7908C19.0969 10.7676 18.7791 10.4419 18.7903 10.0459C18.8015 9.65625 19.1273 9.3345 19.5392 9.34807C21.0618 9.39677 22.5221 9.68499 23.8322 10.5169C24.3624 10.8539 24.7616 11.3129 25.0163 11.8846C25.3644 12.667 25.7205 13.4479 26.0175 14.2495C26.5332 15.6459 26.942 17.0774 27.2638 18.5321C27.4905 19.5708 27.6877 20.6159 27.7269 21.6898Z" fill="currentColor"/>

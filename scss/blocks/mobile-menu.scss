@@ -11,9 +11,9 @@
   transition: right .6s ease;
   z-index: 10000;
   overflow-y: auto;
-  background: url(@img/noise.png) repeat, #F6F3F9;
+  background: url(@img/bg-mobile.svg) no-repeat, $black;
   background-size: contain;
-  background-position: center;
+  background-position: bottom right;
 
   @media (min-width: 376px) {
     background-size: cover;
@@ -44,7 +44,7 @@
       }
 
       &__link {
-        color: $black;
+        color: $white;
         text-decoration: none;
         font-size: 14px;
         line-height: 17px;
@@ -67,7 +67,7 @@
       &__link {
         display: flex;
         align-items: c;
-        color: $black;
+        color: $white;
         text-decoration: none;
 
         &:hover,

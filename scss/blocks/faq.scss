@@ -14,7 +14,8 @@
     display: none;
     width: 305px;
     height: 550px;
-    background: no-repeat center/contain url(@img/test.svg);
+    // background: no-repeat center/contain url(@img/bg-faq.svg);
+    background: no-repeat center/contain url(../img/shiro.png);
 
     @media (min-width: 992px) {
       display: block;
@@ -33,6 +34,23 @@
 
   &.faq-about {
     position: relative;
+
+    &::after {
+      content: "";
+      display: none;
+      position: absolute;
+      top: 120px;
+      left: -263px;
+      width: 493px;
+      height: 493px;
+      background: linear-gradient(162.6deg, #C9B494 23.13%, rgba(201, 180, 148, 0) 81.3%);
+      filter: blur(173px);
+      z-index: -1;
+
+      @media (min-width: 992px) {
+        display: block;
+      }
+    }
 
     &::before {
       position: absolute;
@@ -72,7 +90,7 @@
   &__list-item {
 
     &:first-child {
-      border-top: 1px solid rgba($black, 0.15);
+      border-top: 1px solid $white;
     }
 
     &-title {
@@ -84,15 +102,15 @@
       font-weight: 500;
       font-size: 19px;
       line-height: 27px;
-      color: $black;
+      color: $white;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      border-bottom: 1px solid rgba($black, 0.15);
+      border-bottom: 1px solid $white;
       transition: padding .7s ease-in-out;
 
       &--open {
-        border-bottom: 1px solid rgba($black, 0.15);
+        border-bottom: 1px solid #44444a;
       }
 
       @media (min-width: 1400px) {
@@ -140,7 +158,7 @@
     &-desc {
       display: none;
       padding: 17px 25px 25px;
-      border-bottom: 1px solid rgba($black, 0.15);
+      border-bottom: 1px solid $white;
 
       P {
         margin-bottom: 16px;
