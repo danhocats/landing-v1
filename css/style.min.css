@@ -1952,32 +1952,62 @@ p {
   left: 0;
   content: "";
   display: none;
-  width: 550px;
+  width: 305px;
   height: 550px;
-  background: no-repeat center/contain url(../img/shiro.png);
-  
-  /* background: no-repeat center/contain url(../img/bg-faq.svg); */
+  z-index: -1;
+  background: no-repeat center/contain url(../img/bg_shiro.svg);
 }
 @media (min-width: 992px) {
   .faq::before {
     display: block;
+    top: 0;
+    width: 305px;
+    height: 550px;
+    z-index: -1;
+  }
+}
+@media (min-width: 1400px) {
+  .faq::before {
+    display: block;
+    top: -25px;
+    width: 457.5px;
+    height: 825px;
+    left: 5px;
+    z-index: -1;
+  }
+}
+/* .faq::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: none;
+  width: 550px;
+  height: 550px;
+  background: no-repeat center/contain url(../img/shiro.png);
+} */
+  /* background: no-repeat center/contain url(../img/bg-faq.svg); */
+
+/* @media (min-width: 992px) {
+  .faq::before {
+    display: block;
     top: -100px;
-    width: 512px;
-    height: 512px;
-    left: -50px;
+    width: 585px;
+    height: 730px;
+    left: -114px;
     
   }
 }
 @media (min-width: 1400px) {
   .faq::before {
     display: block;
-    top: -90px;
-    width: 650px;
-    height: 650px;
-    left: -50px;
+    top: -174px;
+    width: 850px;
+    height: 1118px;
+    left: -320px;
     
   }
-}
+} */
 .faq.faq-about {
   position: relative;
 }
