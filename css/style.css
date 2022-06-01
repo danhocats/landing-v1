@@ -1951,9 +1951,40 @@ p {
   display: none;
   width: 305px;
   height: 550px;
-  /* background: no-repeat center/contain url(../img/bg-faq.svg); */
-  background: no-repeat center/contain url(../img/shiro.png);
+  z-index: -1;
+  background: no-repeat center/contain url(../img/bg_shiro.svg);
 }
+@media (min-width: 992px) {
+  .faq::before {
+    display: block;
+    top: 0;
+    width: 305px;
+    height: 550px;
+    z-index: -1;
+  }
+}
+@media (min-width: 1400px) {
+  .faq::before {
+    display: block;
+    top: -25px;
+    width: 457.5px;
+    height: 825px;
+    left: 5px;
+    z-index: -1;
+  }
+}
+/* .faq::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: none;
+  width: 305px;
+  height: 550px;
+  background: no-repeat center/contain url(../img/bg_shiro.svg); */
+  /* background: no-repeat center/contain url(../img/bg-faq.svg); */
+  /* background: no-repeat center/contain url(../img/shiro.png); */
+/* }
 @media (min-width: 992px) {
   .faq::before {
     display: block;
@@ -1969,7 +2000,7 @@ p {
     width: 457.5px;
     height: 825px;
   }
-}
+} */
 .faq.faq-about {
   position: relative;
 }
